@@ -103,7 +103,7 @@ body{font-family:Inter,system-ui,sans-serif;background:#000;color:#fff}
 .std-bg {
   position: absolute;
   inset: 0;
-  background: url("../assets/saveee.jpeg") center/cover no-repeat;
+  background: url("../assets/mariachis.jpeg") center/cover no-repeat;
 }
 
 .savethedate::after {
