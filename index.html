@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Diego & Leslie — 8 de noviembre 2025</title>
+  <title>Diego & Lesly — 7 de noviembre 2025</title>
 
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,27 +17,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!-- PORTADA (Sobre) -->
+<div id="cover" class="cover">
+  <div class="cover-inner">
+    
+    <p class="cover-text">¡Toca aquí!</p>
+  </div>
+</div>
 
+<!-- Música -->
+<audio id="bg-music" loop>
+  <source src="assets/audio.mp3" type="audio/mpeg">
+</audio>
+
+<div id="invitation" class="invitation hidden">
   <!-- HERO -->
   <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-inner">
-      <h1 class="hero-names">Diego & Leslie</h1>
-      <p class="hero-date">08 NOVIEMBRE 2025</p>
+      <h1 class="hero-names">Diego & Lesly</h1>
+      <p class="hero-date">07 NOVIEMBRE 2025</p>
     </div>
   </section>
   <!-- NUESTRA HISTORIA -->
-<section class="story">
+  <section class="story">
   <div class="story-photo">
-    <img src="assets/filtro.png" alt="Diego y Leslie" />
+    <img src="assets/anillo.jpeg" alt="Diego y Lesly" />
   </div>
   <div class="story-text">
-    <p>
+    <p class="hero-names1">
       El amor se construye en los detalles, en las risas compartidas y en los
       silencios que nos entienden. Cada paso que hemos dado juntos nos ha traído
       hasta este instante tan especial.
@@ -47,15 +60,15 @@
       porque <em>el verdadero amor se comparte y se multiplica.</em>
     </p>
   </div>
-</section>
+  </section>
 
 
 <!-- SAVE THE DATE -->
-<section class="savethedate">
+  <section class="savethedate">
   <div class="std-bg"></div>
   <div class="std-inner">
     <h2 class="std-title">Save the Date</h2>
-    <p class="std-date">08 Noviembre 2025</p>
+    <p class="std-date">07 Noviembre 2025</p>
     <div class="countdown" id="countdown">
       <div class="time-box">
         <span id="days">0</span>
@@ -75,12 +88,12 @@
       </div>
     </div>
   </div>
-</section>
+  </section>
 
-</body>
+
 
 <!-- CUÁNDO Y DÓNDE -->
-<section class="when-where">
+    <section class="when-where">
   
   <h2> <i class="fa-solid fa-location-dot"></i>Cuándo y dónde</h2>
   <div class="event-card">
@@ -88,10 +101,10 @@
       <img src="assets/beso.jpeg" alt="Lugar de la ceremonia">
     </div>
     <div class="event-info">
-      <h3 class="event-title">CEREMONIA</h3>
-      <h4 class="event-place">Basilica Colegiata de Nuestra Señora</h4>
-      <p><i class="fa-solid fa-location-dot"></i> Rincon Alvarado, Zona 2, Mixco</p>
-      <p><i class="fa-solid fa-calendar-days"></i> 08 Noviembre 2025, 17:00 hrs</p>
+      <h3 class="event-title">Boda Civil</h3>
+      <h4 class="event-place">Rincon Alvarado</h4>
+      <p><i class="fa-solid fa-location-dot"></i> 9na avenida, 2-05, Zona 2 de Mixco, Colonia Alvarado</p>
+      <p><i class="fa-solid fa-calendar-days"></i> 08 Noviembre 2025, 18:00 hrs</p>
       <p>
         La Basílica Colegiata es uno de los templos más emblemáticos de la ciudad, 
         donde iniciaremos esta celebración de amor.
@@ -108,11 +121,25 @@
       </div>
     </div>
   </div>
-</section>
+    </section>
+
+<!-- REGALO -->
+  <section class="gift" data-aos="fade-up">
+  <div class="gift-inner">
+    <i class="fa-solid fa-gift gift-icon"></i>
+    <h2 class="gift-title">Regalo</h2>
+    <p class="gift-text">
+      Lo más importante es tu presencia,<br>
+      pero si algo me quieres obsequiar,<br>
+      con dinero lo sabré apreciar.
+    </p>
+  </div>
+  </section>
+
 
 
 <!-- GALERÍA -->
-<section class="gallery">
+  <section class="gallery">
   <div class="gallery-header">
     <i class="fas fa-camera-retro"></i>
     <h2>Galería</h2>
@@ -134,7 +161,7 @@
   <a href="assets/brindis.jpeg" class="big-right" target="_blank">
     <img src="assets/brindis.jpeg" alt="Foto 4">
   </a>
-</section>
+  </section>
 
 
 
@@ -152,7 +179,7 @@
 
     <a
       class="rsvp-btn outline"
-      href="https://wa.me/50255555555?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Diego%20y%20Leslie%20el%2008%20de%20noviembre%20de%202025"
+      href="https://wa.me/50233970345?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Diego%20y%20Lesly%20el%2007%20de%20noviembre%20de%202025"
       target="_blank"
       rel="noopener"
     >
@@ -165,9 +192,35 @@
 
 <section class="footer">
   <p>Con amor,</p>
-  <p class="names">Diego & Leslie</p>
-  <p class="date">8 de Noviembre, 2025</p>
+  <p class="names">Diego & Lesly</p>
+  <p class="date">7 de Noviembre, 2025</p>
 </section>
+</div>
+</body>
+
+
+
+<script>
+  
+  const cover = document.getElementById("cover");
+  const invitation = document.getElementById("invitation");
+  const music = document.getElementById("bg-music");
+
+  cover.addEventListener("click", () => {
+    // Quitar portada con fade out
+    cover.classList.add("hidden");
+
+    // Mostrar invitación después de la animación
+    setTimeout(() => {
+      invitation.classList.remove("hidden");
+    }, 500);
+
+    // Reproducir música
+    music.play().catch(() => {
+      console.log("El navegador requiere interacción para reproducir audio.");
+    });
+  });
+</script>
 
 
 
@@ -181,7 +234,7 @@
 </script>
 <script>
   // Fecha objetivo: 8 noviembre 2025
-  const targetDate = new Date("Nov 8, 2025 16:30:00").getTime();
+  const targetDate = new Date("Nov 7, 2025 16:30:00").getTime();
 
   const countdown = setInterval(() => {
     const now = new Date().getTime();
@@ -203,5 +256,11 @@
     }
   }, 1000);
 </script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+
+</script>
+
 
 </html>
